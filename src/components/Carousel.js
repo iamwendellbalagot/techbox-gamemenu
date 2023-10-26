@@ -19,6 +19,15 @@ function Carousel() {
         <SwiperSlide className="text-red-500">
           <div>
             <img
+              src="images/banner/banner-techbox.png"
+              alt="loading"
+              style={{ objectFit: "cover", position: "absolute" }}
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="text-red-500">
+          <div>
+            <img
               src="images/banner/pubg.jpg"
               alt="loading"
               style={{ objectFit: "cover", position: "absolute" }}
