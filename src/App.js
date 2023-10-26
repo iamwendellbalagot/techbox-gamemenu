@@ -1,6 +1,7 @@
 import Button from "./components/Button";
 import Cards from "./components/Cards";
 import Carousel from "./components/Carousel";
+import Search from "./components/Search";
 import "./tailwind.css";
 
 function App() {
@@ -37,11 +38,16 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex w-[80%] bg-[#23272a] p-3 space-x-3">
-          <Cards />
-          <Cards />
+        <div className="flex flex-col w-[80%] bg-[#23272a] p-3 ">
+          <div className="mb-5 mt-2">
+            <Search />
+          </div>
+          <div className="flex space-x-4">
+            <Cards />
+            <Cards />
 
-          <Cards />
+            <Cards />
+          </div>
         </div>
       </div>
     </div>
