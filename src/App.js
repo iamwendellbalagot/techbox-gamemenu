@@ -7,7 +7,7 @@ import "./tailwind.css";
 function App() {
   return (
     <div className="flex flex-col bg-[#2c2f33] h-[100vh] text-[#ffffff]">
-      <div className="h-[300px]">
+      <div className="h-[250px]">
         <Carousel />
       </div>
 

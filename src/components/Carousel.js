@@ -14,7 +14,7 @@ function Carousel() {
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={{ delay: 2000 }}
-        className="mySwiper h-[300px] "
+        className="mySwiper h-[250px] "
       >
         <SwiperSlide className="text-red-500">
           <div>
