@@ -34,3 +34,11 @@ code {
   height: 100%;
   object-fit: cover;
 }
+
+.card-scroll::-webkit-scrollbar {
+  width: 10px; /* Adjust the width to your preference */
+}
+
+.card-scroll::-webkit-scrollbar-thumb {
+  background-color: #7289da; /* Set your desired color */
+}

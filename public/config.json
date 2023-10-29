@@ -1,0 +1,60 @@
+{
+  "games": {
+    "online_games": [
+      {
+        "name": "Valorant",
+        "image": "images/games/valo.jpg",
+        "path": "E:/shorcuts/RiotClientServices.lnk"
+      },
+      {
+        "name": "Dota 2",
+        "image": "images/games/dota2.jpg",
+        "path": ""
+      },
+      {
+        "name": "Farlight 84",
+        "image": "images/games/farlight84.jpg",
+        "path": ""
+      },
+      {
+        "name": "PUBG",
+        "image": "images/games/pubg.jpg",
+        "path": ""
+      },
+      {
+        "name": "Roblox",
+        "image": "images/games/roblox.jpg",
+        "path": ""
+      },
+      {
+        "name": "LoL",
+        "image": "images/games/lol.png",
+        "path": ""
+      },
+      {
+        "name": "Fortnite",
+        "image": "images/games/fortnite.jpg",
+        "path": ""
+      }
+    ],
+    "offline_games": [
+      {
+        "name": "GTA V",
+        "image": "images/games/gtav.jpg",
+        "path": ""
+      },
+      {
+        "name": "2k22",
+        "image": "images/games/2k22.jpg",
+        "path": ""
+      }
+    ]
+  },
+  "applications": {
+    "office_apps": [],
+    "internet_apps": []
+  },
+  "recommended": {
+    "favorites": []
+  }
+}

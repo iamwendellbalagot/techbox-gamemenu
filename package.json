@@ -1,11 +1,17 @@
 {
   "name": "techbox-app",
+  "homepage": ".",
   "version": "0.1.0",
+  "main": "main.js",
   "private": true,
+  "browser": {
+    "child_process": false
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "electron-builder": "^24.6.4",
     "postcss-cli": "^10.1.0",
     "postcss-preset-env": "^9.2.0",
     "react": "^18.2.0",
@@ -19,7 +25,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-electron": "electron .",
+    "build-electron": "npm run build && electron .",
+    "electron-package": "pm run build && electron-forge package",
+    "electron-make": "npm run build && electron-forge make"
   },
   "eslintConfig": {
     "extends": [
@@ -38,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "electron": "^27.0.2"
   }
 }
